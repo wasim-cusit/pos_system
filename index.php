@@ -72,8 +72,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['register'])) {
             <input type="password" class="form-control" id="password" name="password" required>
         </div>
         <button type="submit" name="login" class="btn btn-primary w-100 mb-2">Login</button>
-        <button type="submit" name="register" class="btn btn-outline-secondary w-100 mb-2">Register</button>
-        <div class="form-text text-center mt-2">Only admins can register new users. Please log in as admin first.</div>
+        <a href="../pos_system/pos/register.php" class="btn btn-outline-secondary w-100 mb-2">Register</a>
+<div class="form-text text-center mt-2">Only admins can register new users. Please log in as admin first.</div>
     </form>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
